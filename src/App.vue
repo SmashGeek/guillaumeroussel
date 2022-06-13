@@ -8,8 +8,8 @@ import navbarMenu from './components/Navbar.vue'
 
 export default {
   components: {
-    navbarMenu
-  }
+    navbarMenu,
+}
 }
 </script>
 
