@@ -33,7 +33,6 @@ export default {
 
 .divided-home {
   display: flex;
-  flex-direction: row;
-  margin: 5% 5% 0% 5%;
+  margin: 5% 5% 5% 5%;
 }
 </style>

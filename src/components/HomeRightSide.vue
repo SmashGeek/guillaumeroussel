@@ -44,9 +44,11 @@ export default {
 <style scoped>
 
 .progress-container {
-	background: rgba(248, 248, 248, 0.5);
-	backdrop-filter: blur(10px);
-	border: 1px solid rgba(255,255,255,0.25);
+	background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 5px;
+	padding: 3%;
 }
 .progress-title {
 	display: flex;
