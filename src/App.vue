@@ -14,11 +14,8 @@ export default {
 </script>
 
 
-<style>
-#app {
+<style lang="scss">
+/*#app {
   font-family: Helvetica, Arial, sans-serif;
-}
-body {
-  background-color: #CFD8DC;
-}
+}*/
 </style>

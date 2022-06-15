@@ -28,10 +28,12 @@ export default {
 .logo {
   width: 7%;
   height: 7%;
+  margin-top: 10px;
 }
 
 .divided-home {
   display: flex;
   flex-direction: row;
+  margin: 5% 5% 0% 5%;
 }
 </style>

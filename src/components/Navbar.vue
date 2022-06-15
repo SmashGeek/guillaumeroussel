@@ -3,11 +3,11 @@
         <div class="item-container">
         <div class="item-navbar">
             <router-link to="/" class="icon-navbar"><font-awesome-icon :icon="['fas', 'torii-gate']" size="2x"/>Accueil</router-link>
-            <span class="item-separation"></span>
+            <div class="item-separation"></div>
             <a href="#" class="icon-navbar"><font-awesome-icon :icon="['far', 'folder-open']" size="2x" />Mes realisations</a>
-            <span class="item-separation"></span>
+            <div class="item-separation"></div>
             <router-link to="/about" class="icon-navbar"><font-awesome-icon :icon="['far', 'circle-question']" size="2x"/>A propos</router-link>
-            <span class="item-separation"></span>
+            <div class="item-separation"></div>
             <a href="#" class="icon-navbar"><font-awesome-icon :icon="['far', 'envelope']" size="2x" />Contact</a>
         </div>
         </div>
