@@ -31,7 +31,7 @@
 			<div class="progress-value-node"></div>
 		</div>
 	</div>
-	<router-link to="/" class="icon-align"><font-awesome-icon :icon="['far', 'square-plus']" size="2x"/></router-link>
+	<router-link to="/portfolio" class="icon-align"><font-awesome-icon :icon="['far', 'square-plus']" size="2x"/></router-link>
 </div>
 </template>
 

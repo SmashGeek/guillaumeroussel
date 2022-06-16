@@ -4,11 +4,11 @@
         <div class="item-navbar">
             <router-link to="/" class="icon-navbar"><font-awesome-icon :icon="['fas', 'torii-gate']" size="2x"/>Accueil</router-link>
             <div class="item-separation"></div>
-            <a href="#" class="icon-navbar"><font-awesome-icon :icon="['far', 'folder-open']" size="2x" />Mes realisations</a>
+            <router-link to="/portfolio" class="icon-navbar"><font-awesome-icon :icon="['far', 'folder-open']" size="2x" />Mes realisations</router-link>
             <div class="item-separation"></div>
             <router-link to="/about" class="icon-navbar"><font-awesome-icon :icon="['far', 'circle-question']" size="2x"/>A propos</router-link>
             <div class="item-separation"></div>
-            <a href="#" class="icon-navbar"><font-awesome-icon :icon="['far', 'envelope']" size="2x" />Contact</a>
+            <router-link to="/" class="icon-navbar"><font-awesome-icon :icon="['far', 'envelope']" size="2x" />Contact</router-link>
         </div>
         </div>
     </nav>
