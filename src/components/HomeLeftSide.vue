@@ -17,7 +17,7 @@ export default {
 <style scoped>
 .left-side {
     width: 50%;
-    margin: 3% 5% 3% 5%;
+    margin: 5% 5% 8% 5%;
     padding: 0% 2% 0% 2%;
     font-size: 2em;
     background: rgba(255, 255, 255, 0.3);

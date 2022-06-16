@@ -52,7 +52,7 @@ export default {
     margin: 1% 5% 1% 5%;
     list-style-type: none;
     font-family: "balooregular", helvetica, Arial, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .item-separation {
     border: 1px rgba(194, 195, 197, 1);

@@ -1,5 +1,6 @@
 <template>
 <div class="progress-container">
+	<h2>Mes compétences</h2>
 	<div class="progress-content">
 		<div class="progress-title"><font-awesome-icon :icon="['fab', 'html5']" size="2x"/><p>HTML5</p></div>
 		<div class="progress">
@@ -30,6 +31,7 @@
 			<div class="progress-value-node"></div>
 		</div>
 	</div>
+	<router-link to="/" class="icon-align"><font-awesome-icon :icon="['far', 'square-plus']" size="2x"/></router-link>
 </div>
 </template>
 
@@ -47,11 +49,17 @@ export default {
 	background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.25);
-    border-radius: 5px;
-	padding: 3%;
+    border-radius: 10px;
+	padding: 1% 2% 1% 2%;
+}
+
+h2 {
+ text-align: center;
+ margin-bottom: 7%;
 }
 .progress-title {
 	display: flex;
+	text-align: justify;
 }
 .progress {
 	background: rgba(2, 2, 2, 0.1);
@@ -63,6 +71,10 @@ export default {
 	display: flex;
 	height: 40px;
 	width: 500px;
+}
+
+.progress-content {
+	margin-bottom: 2%;
 }
 
 .progress-value-html {
@@ -125,4 +137,17 @@ export default {
 	0% { width: 0; }
 	100% { width: 40%; }
 }
+
+.icon-align {
+	display: flex;
+	justify-content: center;
+}
+a {
+	text-decoration: none;
+    color: #2c3e50;
+}
+a:hover {
+    color: #ffffff;
+}
+
 </style>
