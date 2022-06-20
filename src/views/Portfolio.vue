@@ -12,17 +12,67 @@
     </div>
     </div>
   <div class="card-project">
-    <div class="project-description"></div>
+    <div class="project-description">
+      <h2>OhMyFood</h2>
+      <p>Creation d'un site vitrine, regroupant les menus de plusieurs restaurants</p>
+      <h3>Technologies utilisees</h3>
+    <ul>
+      <li>HTML5</li>
+      <li>SCSS</li>
+    </ul>
+    </div>
     </div>
   <div class="card-project">
-    <div class="project-description"></div>
+    <div class="project-description">
+      <h2>La Chouette Agence</h2>
+      <p>Optimisation pour les moteurs de recherche (SEO), pour le site La Chouette Agence</p>
+      <h3>Technologies utilisees</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Google Lighthouse</li>
+        <li>GTMetrix</li>
+      </ul>
+    </div>
     </div>
   <div class="card-project">
-    <div class="project-description"></div></div>
-  <div class="card-project"><div class="project-description"></div>
+    <div class="project-description">
+      <h2>Orinoco</h2>
+      <p>Realisation du front end de l'application e-commerce Orinoco</p>
+      <h3>Technologies utilisees</h3>
+      <ul>
+        <li>JavaScript</li>
+        <li>HTML5</li>
+        <li>SCSS</li>
+      </ul>
+    </div>
+    </div>
+  <div class="card-project">
+    <div class="project-description">
+      <h2>Piquante</h2>
+      <p>Realisation du back end de l'application Piquante</p>
+      <h3>Technologies utilisees</h3>
+      <ul>
+        <li>JavaScript</li>
+        <li>Node.js</li>
+        <li>Express</li>
+      </ul>
+    </div>
   </div>
   <div class="card-project">
     <div class="project-description"></div>
+    <h2>Groupomania</h2>
+    <p>Realisation du reseau social interne de l'entreprise Groupomania</p>
+    <h3>Technologies utilisees</h3>
+    <ul>
+      <li>Vue.js</li>
+      <li>JavaScript</li>
+      <li>HTML5</li>
+      <li>SCSS</li>
+      <li>Node.js</li>
+      <li>Express</li>
+      <li>MySQL</li>
+    </ul>
     </div>
   </div>
 </template>
