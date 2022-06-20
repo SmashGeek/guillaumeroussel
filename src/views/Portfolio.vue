@@ -1,7 +1,7 @@
 <template>
 <div class="card-container">
   <div class="card-project">
-    <div class="project-description"></div>
+    <div class="project-description"><p>CV realise sous forme d'application Web </p></div>
     </div>
   <div class="card-project">
     <div class="project-description"></div>
