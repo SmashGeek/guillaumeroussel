@@ -1,7 +1,15 @@
 <template>
 <div class="card-container">
   <div class="card-project">
-    <div class="project-description"><p>CV realise sous forme d'application Web </p></div>
+    <div class="project-description">
+      <h2>SmashGeek.github.io</h2>
+      <p>CV realise sous forme d'application Web.</p>
+      <h3>Technologies utilisees</h3>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+    </ul>
+    </div>
     </div>
   <div class="card-project">
     <div class="project-description"></div>
