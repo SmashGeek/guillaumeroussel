@@ -51,6 +51,7 @@ export default {
     border: 1px solid rgba(255,255,255,0.25);
     border-radius: 10px;
 	padding: 1% 2% 1% 2%;
+	width: 35%;
 }
 
 h2 {
@@ -148,6 +149,17 @@ a {
 }
 a:hover {
     color: #ffffff;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.progress-container {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.progress-container {
+		width: 100%;
+	}
 }
 
 </style>
