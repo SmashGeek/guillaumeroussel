@@ -70,7 +70,7 @@ h2 {
 	padding: 0 5px;
 	display: flex;
 	height: 40px;
-	width: 500px;
+	width: 100%;
 }
 
 .progress-content {

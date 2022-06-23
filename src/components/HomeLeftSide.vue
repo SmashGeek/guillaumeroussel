@@ -26,5 +26,16 @@ export default {
     border-radius: 5px;
     text-align: justify;
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .left-side {
+    width: 90%;
+    font-size: 1.2em;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .left-side {
+    width: 90%;
+  }
+}
 
 </style>

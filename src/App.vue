@@ -2,8 +2,8 @@
 <div class="home">
     <img alt="logo du site" class="logo" src="../src/assets/img/LogoFullBlack.png">
   </div>
-  <navbarMenu />
   <router-view/>
+  <navbarMenu />
 </template>
 
 <script>
@@ -26,6 +26,7 @@ html {
 }
 body {
   margin: 0;
+  overflow: auto;
 }
 .color {
   
@@ -40,6 +41,17 @@ body {
   width: 7%;
   height: 7%;
   margin-top: 10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .logo {
+    width: 25%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .logo {
+    width: 15%;
+  }
 }
 
 
