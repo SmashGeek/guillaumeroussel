@@ -234,6 +234,7 @@ a:hover {
 
   .list-tech {
     flex-wrap: wrap;
+    padding-bottom: 5%;
   }
 }
 </style>

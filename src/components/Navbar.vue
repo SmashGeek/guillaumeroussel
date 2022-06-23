@@ -44,6 +44,7 @@ export default {
     border-radius: 15px 15px 3px 3px;
     box-shadow: 0px -5px 8px 0px rgba(0, 0, 0, 0.25);
     width: 50%;
+    height: 8vh;
     background-color: #ffffff;
 }
 .icon-navbar {
