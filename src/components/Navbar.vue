@@ -8,7 +8,7 @@
             <div class="item-separation"></div>
             <router-link to="/about" class="icon-navbar"><font-awesome-icon :icon="['far', 'circle-question']" size="2x"/><p>A propos</p></router-link>
             <div class="item-separation"></div>
-            <router-link to="/" class="icon-navbar"><font-awesome-icon :icon="['far', 'envelope']" size="2x" /><p>Contact</p></router-link>
+            <router-link to="/contact" class="icon-navbar"><font-awesome-icon :icon="['far', 'envelope']" size="2x" /><p>Contact</p></router-link>
         </div>
         </div>
     </nav>
@@ -74,7 +74,7 @@ a:hover {
     color: #42b983;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 719px) {
     .item-navbar {
         width: 80%;
         height: 5vh;
@@ -86,7 +86,7 @@ a:hover {
         display: none;
     }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 720px) and (max-device-width: 1200px) {
     .item-navbar {
         width: 80%;
         height: 6vh;

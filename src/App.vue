@@ -1,6 +1,7 @@
 <template>
 <div class="home">
     <img alt="logo du site" class="logo" src="../src/assets/img/LogoFullBlack.png">
+    <h1>Développeur Full Stack Junior</h1>
   </div>
   <router-view/>
   <navbarMenu />
@@ -36,19 +37,20 @@ body {
 .home{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .logo {
-  width: 7%;
-  height: 7%;
-  margin-top: 10px;
+  width: 6%;
+  height: 6%;
+  margin: 1%;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 719px) {
   .logo {
     width: 25%;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 720px) and (max-device-width: 1200px) {
   .logo {
     width: 15%;
   }

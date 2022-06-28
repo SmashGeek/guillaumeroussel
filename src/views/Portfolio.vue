@@ -3,10 +3,14 @@
 <div class="card-container">
   <div class="card-project">
     <h2>SmashGeek.github.io</h2>
-    <img class="project-img" src="../assets/img/projet1.png" alt="Illustration site internet smashgeek.github.io"/>
+    <picture>
+      <source srcset="../assets/img/projet1.webp" type="image/webp">
+      <source srcset="../assets/img/projet1.png" type="image/png">
+      <img class="project-img" src="../assets/img/projet1.webp" alt="Illustration site internet smashgeek.github.io"/>
+      </picture>
     <div class="project-description">
       <p>[Formation - OpenClassrooms] CV réalisé sous forme d'application Web.</p>
-      <h3>Technologies utilisees</h3>
+      <h3>Technologies utilisées</h3>
       <div class="list-tech">
     <ul>
       <li>HTML5</li>
@@ -14,16 +18,18 @@
     </ul>
     </div>
     </div>
-    <div class="btn">
-    <a href="https://github.com/SmashGeek/SmashGeek.github.io" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'github']" size="2x"/></a>
-    </div>
+    <a href="https://github.com/SmashGeek/SmashGeek.github.io" target="_blank" rel="noopener" ><div class="btn"><font-awesome-icon :icon="['fab', 'github']" size="2x" color="white"/></div></a>
     </div>
   <div class="card-project">
     <h2>OhMyFood</h2>
-    <img class="project-img" src="../assets/img/projet2.png" alt="Illustration site internet ohmyfood"/>
+    <picture>
+      <source srcset="../assets/img/projet2.webp" type="image/webp">
+      <source srcset="../assets/img/projet2.png" type="image/png">
+      <img class="project-img" src="../assets/img/projet2.webp" alt="Illustration site internet ohmyfood"/>
+      </picture>
     <div class="project-description">
-      <p>[Formation - OpenClassrooms] Creation d'un site vitrine, regroupant les menus de plusieurs restaurants.</p>
-      <h3>Technologies utilisees</h3>
+      <p>[Formation - OpenClassrooms] Création d'un site vitrine, regroupant les menus de plusieurs restaurants.</p>
+      <h3>Technologies utilisées</h3>
       <div class="list-tech">
     <ul>
       <li>HTML5</li>
@@ -31,16 +37,18 @@
     </ul>
     </div>
     </div>
-    <div class="btn">
-    <a href="https://github.com/SmashGeek/p3-ohmyfood" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'github']" size="2x"/></a>
-    </div>
+    <a href="https://github.com/SmashGeek/p3-ohmyfood" target="_blank" rel="noopener"><div class="btn"><font-awesome-icon :icon="['fab', 'github']" size="2x" color="white"/></div></a>
     </div>
   <div class="card-project">
     <h2>La Chouette Agence</h2>
-    <img class="project-img" src="../assets/img/projet3.png" alt="Illustration site internet La Chouette Agence"/>
+    <picture>
+      <source srcset="../assets/img/projet3.webp" type="image/webp">
+      <source srcset="../assets/img/projet3.png" type="image/png">
+      <img class="project-img" src="../assets/img/projet3.webp" alt="Illustration site internet La Chouette Agence"/>
+      </picture>
     <div class="project-description">
       <p>[Formation - OpenClassrooms] Optimisation pour les moteurs de recherche, pour le site La Chouette Agence.</p>
-      <h3>Technologies utilisees</h3>
+      <h3>Technologies utilisées</h3>
       <div class="list-tech">
       <ul>
         <li>HTML5</li>
@@ -52,16 +60,18 @@
         </ul>
       </div>
     </div>
-    <div class="btn">
-    <a href="https://github.com/SmashGeek/P4-LaChouetteAgenceV2" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'github']" size="2x"/></a>
-    </div>
+    <a href="https://github.com/SmashGeek/P4-LaChouetteAgenceV2" target="_blank" rel="noopener"><div class="btn"><font-awesome-icon :icon="['fab', 'github']" size="2x" color="white"/></div></a>
     </div>
   <div class="card-project">
     <h2>Orinoco</h2>
-    <img class="project-img" src="../assets/img/projet4.png" alt="Illustration site internet Orinoco"/>
+    <picture>
+      <source srcset="../assets/img/projet4.webp" type="image/webp">
+      <source srcset="../assets/img/projet4.png" type="image/png">
+      <img class="project-img" src="../assets/img/projet4.webp" alt="Illustration site internet Orinoco"/>
+      </picture>
     <div class="project-description">
-      <p>[Formation - OpenClassrooms] Realisation du front end de l'application e-commerce Orinoco.</p>
-      <h3>Technologies utilisees</h3>
+      <p>[Formation - OpenClassrooms] Réalisation du front end de l'application e-commerce Orinoco.</p>
+      <h3>Technologies utilisées</h3>
       <div class="list-tech">
       <ul>
         <li>JavaScript</li>
@@ -72,16 +82,18 @@
       </ul>
       </div>
     </div>
-    <div class="btn">
-    <a href="https://github.com/SmashGeek/P5-orinoco" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'github']" size="2x"/></a>
-    </div>
+    <a href="https://github.com/SmashGeek/P5-orinoco" target="_blank" rel="noopener"><div class="btn"><font-awesome-icon :icon="['fab', 'github']" size="2x" color="white"/></div></a>
     </div>
   <div class="card-project">
     <h2>Piquante</h2>
-    <img class="project-img" src="../assets/img/projet5.png" alt="Illustration application Piquante"/>
+    <picture>
+      <source srcset="../assets/img/projet5.webp" type="image/webp">
+      <source srcset="../assets/img/projet5.png" type="image/png">
+      <img class="project-img" src="../assets/img/projet5.webp" alt="Illustration application Piquante"/>
+      </picture>
     <div class="project-description">
-      <p>[Formation - OpenClassrooms] Realisation du back end de l'application Piquante.</p>
-      <h3>Technologies utilisees</h3>
+      <p>[Formation - OpenClassrooms] Réalisation du back end de l'application Piquante.</p>
+      <h3>Technologies utilisées</h3>
       <div class="list-tech">
       <ul>
         <li>JavaScript</li>
@@ -93,16 +105,18 @@
       </ul>
       </div>
     </div>
-    <div class="btn">
-    <a href="https://github.com/SmashGeek/backend" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'github']" size="2x"/></a>
-    </div>
+    <a href="https://github.com/SmashGeek/backend" target="_blank" rel="noopener"><div class="btn"><font-awesome-icon :icon="['fab', 'github']" size="2x" color="white"/></div></a>
   </div>
   <div class="card-project">
     <h2>Groupomania</h2>
-    <img class="project-img" src="../assets/img/projet6.png" alt="Illustration site internet Groupomania"/>
+    <picture>
+      <source srcset="../assets/img/projet6.webp" type="image/webp">
+      <source srcset="../assets/img/projet6.png" type="image/png">
+      <img class="project-img" src="../assets/img/projet6.webp" alt="Illustration site internet Groupomania"/>
+      </picture>
     <div class="project-description"></div>
-    <p>[Formation - OpenClassrooms] Realisation du reseau social interne de l'entreprise Groupomania.</p>
-    <h3>Technologies utilisees</h3>
+    <p>[Formation - OpenClassrooms] Réalisation du réseau social interne de l'entreprise Groupomania.</p>
+    <h3>Technologies utilisées</h3>
     <div class="list-tech">
     <ul>
       <li>Vue.js</li>
@@ -122,9 +136,7 @@
       <li>MySQL</li>
       </ul>
     </div>
-    <div class="btn">
-    <a href="https://github.com/SmashGeek/P7Groupomania" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'github']" size="2x"/></a>
-    </div>
+    <a href="https://github.com/SmashGeek/P7Groupomania" target="_blank" rel="noopener"><div class="btn"><font-awesome-icon :icon="['fab', 'github']" size="2x" color="white"/></div></a>
     </div>
   </div>
 </template>
@@ -189,20 +201,10 @@ ul {
 
 .btn {
   background-color: #272727;
-  padding: 2% 20% 2% 20%;
-}
-.btn:hover {
-  background-color: white;
-}
-a {
-  text-decoration: none;
-  color: white;
-}
-a:hover {
-  color: #272727;
+  padding: 0.2vw 3vw 0.2vw 3vw;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 719px){
   .card-container {
     display: flex;
     flex-direction: column;
@@ -212,14 +214,18 @@ a:hover {
 
   .card-project {
     width: 90%;
-    margin-bottom: 5%;
+    height: 100vh;
+  
   }
 
   .list-tech {
     flex-wrap: wrap;
   }
+  .btn {
+  padding: 1vw 20vw 1vw 20vw;
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+@media only screen and (min-device-width: 720px) and (max-device-width: 1200px) {
   .card-container {
     display: flex;
     flex-direction: column;
@@ -236,5 +242,8 @@ a:hover {
     flex-wrap: wrap;
     padding-bottom: 5%;
   }
+  .btn {
+  padding: 1vw 10vw 1vw 10vw;
+}
 }
 </style>
